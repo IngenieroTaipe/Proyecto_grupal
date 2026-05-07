@@ -1,4 +1,4 @@
-# 🚀 Mejoras de Diseño e Interfaz (UI/UX)
+# Mejoras de Diseño e Interfaz (UI/UX)
 
 Este documento detalla las mejoras estéticas y funcionales implementadas en el proyecto que van más allá de los requerimientos base de la rúbrica, con el objetivo de presentar un producto de calidad profesional (Nivel Producción).
 
