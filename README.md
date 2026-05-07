@@ -85,6 +85,11 @@ npm run dev
 npm run build
 ```
 
+##  Mejoras de Versión (UI/UX)
+Para complementar los requerimientos técnicos de la asignatura, el proyecto ha sido dotado de un diseño premium utilizando técnicas avanzadas de **Glassmorphism**, iconografía vectorial dinámica y animaciones interactivas. 
+
+Te invitamos a leer el archivo **[EXTRAS.md](./EXTRAS.md)** incluido en este repositorio para conocer el detalle técnico de cómo se lograron estos acabados profesionales sin romper las directrices de la guía de la práctica.
+
 ---
 
 ## Equipo de Desarrollo
@@ -97,3 +102,4 @@ npm run build
 **Universidad Nacional del Centro del Perú**
 **Facultad de Ingeniería de Sistemas**
 **Asignatura:** Desarrollo de Aplicaciones Web (IS093A)
+**Semestre:** 2026 - I
