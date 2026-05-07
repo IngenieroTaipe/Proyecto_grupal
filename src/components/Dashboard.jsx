@@ -14,15 +14,21 @@ const Dashboard = ({ metrics, children }) => {
   return (
     <section className={styles.dashboard}>
       <div className={styles.grid}>
-        {metrics.map((metric) => (
-          <MetricCard
-            key={metric.id}
-            label={metric.label}
-            value={metric.value}
-            unit={metric.unit}
-            trend={metric.trend}
-            status={metric.status}
-          />
+        {metrics.map((metric, index) => (
+          <div 
+            key={metric.id} 
+            className={styles.cardWrapper}
+            style={{ animationDelay: `${index * 0.15}s` }}
+          >
+            <MetricCard
+              label={metric.label}
+              value={metric.value}
+              unit={metric.unit}
+              trend={metric.trend}
+              status={metric.status}
+              icon={metric.icon}
+            />
+          </div>
         ))}
       </div>
       <footer className={styles.footer}>
@@ -40,7 +46,8 @@ Dashboard.propTypes = {
       value: PropTypes.number.isRequired,
       unit: PropTypes.string.isRequired,
       trend: PropTypes.oneOf(['up', 'down', 'stable']).isRequired,
-      status: PropTypes.string.isRequired
+      status: PropTypes.string.isRequired,
+      icon: PropTypes.element
     })
   ).isRequired,
   children: PropTypes.node
