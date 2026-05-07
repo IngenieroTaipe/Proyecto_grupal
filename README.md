@@ -2,6 +2,20 @@
 
 Documentación técnica del proyecto desarrollado para la asignatura de Desarrollo de Aplicaciones Web (IS093A) - Unidad I: Desarrollo Web Frontend.
 
+## Matriz de Cumplimiento de Objetivos de la Práctica
+
+El presente proyecto ha sido diseñado estrictamente para cumplir con los cinco objetivos principales estipulados en la guía práctica semanal:
+
+| Objetivo Requerido | Implementación en el Proyecto | Estado |
+| :--- | :--- | :--- |
+| **1. Arquitectura CSR** | Se implementó Vite con un `index.html` mínimo. La interfaz se construye dinámicamente mediante la hidratación del DOM vía JavaScript. | Cumplido |
+| **2. Componentes Anidados** | Estructura jerárquica estricta: `<App>` → `<Dashboard>` → `<MetricCard>` → `<StatusBadge>`, utilizando *props* para datos y *children* para composición. | Cumplido |
+| **3. Estilado Estratégico** | Uso de **CSS Modules** para evitar colisiones en tarjetas, **Inline Styles** calculados para métricas dinámicas, y **Variables CSS globales** para la paleta de colores. | Cumplido |
+| **4. Validación de Tipos** | Implementación rigurosa de `PropTypes` y documentación `JSDoc` en todos los componentes para definir y validar las interfaces de las propiedades. | Cumplido |
+| **5. Reporte CSR** | Inclusión de la sección de Validación CSR en este documento, preparada para adjuntar la evidencia de DevTools y la inspección del HTML inicial. | Cumplido |
+
+---
+
 ## Arquitectura de Componentes
 
 ### Diagrama de Árbol y Flujo de Datos
@@ -72,8 +86,14 @@ npm run build
 ```
 
 ---
-**Integrantes del Proyecto:**
-* [______________________________________________]
+
+## Equipo de Desarrollo
+
+* Barja Ortiz Erick Gerson
+* Navarro Serva Lesly Brenda
+* Toribio Anselmo David Angel
+* Yauri Torres Benjamin Raul
 
 **Universidad Nacional del Centro del Perú**
 **Facultad de Ingeniería de Sistemas**
+**Asignatura:** Desarrollo de Aplicaciones Web (IS093A)
